@@ -4,7 +4,34 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
+
+.header {
+    margin-top: 0;
+    margin-left: 10px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: 500;
+    vertical-align: middle;
+}
 
 /* MAIN */
 
