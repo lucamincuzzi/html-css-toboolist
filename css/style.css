@@ -5,14 +5,9 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: hsl(200deg 20% 97.06%);
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
 }
 
 /* HEADER */
@@ -36,5 +31,34 @@ body {
 }
 
 /* MAIN */
+
+.button-container {
+    margin: 100px auto 0 auto;
+    padding: 15px 0px 10px 40px;
+    width: 80%;
+    background-color: white;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px 
+}
+
+.task-button {
+    background-color: hsl(204deg 85.86% 61.18%);
+    color: white;
+    font-weight: bold;
+    border: none
+}
+
+.section-button {
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+    color: lightgrey;
+    font-weight: bold;
+}
 
 /* FOOTER */
