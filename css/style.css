@@ -14,6 +14,7 @@ body {
 
 .header {
     background-color: white;
+    height: 80px;
     margin: 0 auto;
     padding-left: 10px;
     height: 100px;
@@ -31,6 +32,8 @@ body {
 }
 
 /* MAIN */
+
+/* Bottoni */
 
 .button-container {
     margin: 100px auto 0 auto;
@@ -59,6 +62,79 @@ body {
     border-width: thin;
     color: lightgrey;
     font-weight: bold;
+}
+
+/* Bottoni */
+
+/* Sezioni & tasks */
+
+.section-container {
+    width: 80%;
+    margin: 5px auto 20px auto;
+    padding: 30px 20px 0px 50px;
+    background-color: white;
+}
+
+.section {
+    list-style-type: none;
+}
+
+.task-section {
+    margin-bottom: 20px;
+}
+
+.task {
+    margin-top: 10px 0 20px 0px;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.task-text {
+    font-size: large;
+    margin-top: 15px;
+}
+
+.task-container {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Tags */
+
+.tag {
+    display: inline;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+    font-size: small;
+    color: white;
+}
+
+.tag.editorial {
+    background-color: hsl(204deg 85.86% 61.18%);
+}
+
+.tag.q1-goals {
+    background-color: blueviolet;
+}
+
+.tag.recruiting {
+    background-color: green;
+}
+
+.tag.mobile {
+    background-color: orange;
+}
+
+.tag.website {
+    background-color: hsl(328.21deg 60% 61.76%);
+}
+
+.tag.sales {
+    background-color: hsl(69.2deg 68.2% 46.86%);
 }
 
 /* FOOTER */
